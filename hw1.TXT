@@ -1,0 +1,29 @@
+1) first 2 elements are compared, and it is found that 22 and 27 are in correct order.
+[22,27,16,2,18,6]
+2) then, 27 and 16 are compared, they are found to be in the wrong order, thus switched, giving us;
+[22,16,27,2,18,6]
+3) then 22 and 16 are compared and switched around.
+[16,22,27,2,18,6]
+4) 27 and 2 are compared, switched, then 22 and 2, then 16 and 2, thus 2 is carried to the beginning.
+[16,22,2,27,18,6]
+[16,2,22,27,18,6]
+[2,16,22,27,18,6]
+5) similar process is done with 18, compared and switched until it is determined to be in correct order.
+[2,16,22,18,27,6]
+[2,16,18,22,27,6]
+6) lastly, 27 and 6 are compared, and 22 and 6, 18 and 6, 16 and 6, and 2 and 6, giving us the final array
+[2,16,18,22,6,27]
+[2,16,18,6,22,27]
+[2,16,6,18,22,27]
+[2,6,16,18,22,27]
+
+big O notation is; O(n²)
+
+18 will be in the middle of the array at the end.
+
+----------
+0) [7,3,5,8,2,9,4,15,6]
+1) [2,7,3,5,8,9,4,15,6]
+2) [2,3,7,5,8,9,4,15,6]
+3) [2,3,4,7,5,8,9,15,6]
+4) [2,3,4,5,7,8,9,15,6]
