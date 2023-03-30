@@ -1,0 +1,8 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+ first off, the array gets sorted with our preferred sorting method;
+
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+The root for this BST is 4, on its right is the [5, 6, 7, 8, 9] sub array(arr1), on its left is the [0, 1, 2, 3] sub array(arr2).
+
+for the right sub array arr1, root is 7, and the subarrays are [5,6] and [8,9].
+for the left sub array arr2, root is 1, and the  sub arrays are [0] and [2,3].
